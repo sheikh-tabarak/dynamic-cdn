@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-cdn",
+  "description": "A dynamic CDN system with admin and business dashboards",
+  "author": "Muhammad Tabarak",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run dashboard\"",
+    "dashboard": "npm start --prefix dashboard",
+    "client": "npm run dev --prefix client",
+    "server": "npm run start --prefix server",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+next-env.d.ts
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Build directories
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
